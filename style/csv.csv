@@ -1,0 +1,28 @@
+<div id="rectangle_35"  >
+            <div class="imgi2">
+                <img src="style\i3.png" alt="" srcset=""></div>
+                <div id class="__p__python_developer" >
+                    Data Engineer
+                </div>
+                    <div id class="__p__core_python_mysql_flask_selenium_git_docker" >
+                        Python + ETL<br/>RDBMS<br/>Pandas<br/>Data Scraping<br/>Data Preprocessing<br/>Data Visualization
+                    </div>
+                    <div class="sub-main">
+                        <button class="button-three">View Content</button>
+                    </div>
+        </div>
+    
+                    
+            <div id="rectangle_38"  >
+                <div class="imgi2">
+                    <img src="style\i3.png" alt="" srcset=""></div>
+                    <div id class="__p__python_developer" >
+                        Data Engineer
+                    </div>
+                        <div id class="__p__core_python_mysql_flask_selenium_git_docker" >
+                            Python + ETL<br/>RDBMS<br/>Pandas<br/>Data Scraping<br/>Data Preprocessing<br/>Data Visualization
+                        </div>
+                        <div class="sub-main">
+                            <button class="button-three">View Content</button>
+                        </div>
+            </div>

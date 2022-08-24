@@ -1,0 +1,186 @@
+body {
+background:rgba(244,244,240,1);
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+    
+    }
+    .navbar{
+        width:100%;
+        flex: 100%;
+        display: flex;
+        align-items:center;
+        background-color: #34BA96;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .navbutton{
+        align-items:left;
+        display: flex;
+        margin-left: auto;
+
+    }
+    button{
+        background-color: transparent;
+        border: #34BA96;
+    }
+    .dropdown{
+        position: relative;
+        display: inline-block;
+       margin-right: 25px;
+    }
+    .dropdown a{
+        align-items: center;
+        padding: none;
+        text-decoration: none;
+        color: black;
+
+    }
+    .dropdown:hover{
+        background-color: rgba(244,244,240,1);
+    }  
+    .sub-main{
+		width: 37%;
+	    margin-top: -161px;
+    	margin-left: 180px;
+    }
+    /*Button Three*/
+.button-three {
+    position: relative;
+    background-color: rgba(217,217,217,1);
+    border: none;
+    -webkit-box-shadow: 0px 4px 4px 1px rgb(0 0 0 / 25%);
+    border-radius: 9px;
+    padding: 10px;
+    width: 131px;
+    text-size-adjust: 0px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.button-three:hover{
+   background:#fff;
+   box-shadow:0px 2px 10px 5px #97B1BF;
+   color:#000;
+}
+
+.button-three:after {
+    content: "";
+    background: rgba(217,217,217,1);
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button-three:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    /* border: solid 2px lightslategrey; */
+    background-color: #cad8f0;
+    border-radius: 25px;
+}
+#rectangle_36 {
+    width: 325px;
+    height: 165px;
+    margin: 65px auto;
+	border-radius: 20px;
+	border: 3px solid #000000;
+	background:rgba(52,186,150,1);
+    box-shadow:12px -12px 0px 0px rgb(180 180 180);
+    
+}
+.imgi2 {
+	margin-top: -24px;
+    margin-left: 358px;
+    display: flex;
+    justify-content: right;
+	width: 208px;
+    height: 210px;
+	
+}
+.__p__python_developer {
+	margin-top: -181px;
+    margin-left: 30px;
+	width: 282px;
+	height: 65px;
+	overflow: hidden;
+	font-family: Verdana;
+	font-size: 20px;
+	text-align: left;
+	color:#000000;
+}
+.__p__core_python_mysql_flask_selenium_git_docker {
+	margin-top: -36px;
+    margin-left: 30px;
+	width: 253px;
+	height: 201px;
+	overflow: hidden;
+	font-family: Verdana;
+	font-size: 16px;
+	text-align: left;
+	color:#FFFFFF;
+}
+#rectangle_37 {
+	margin-left: -122%;
+    margin-top: 35%;
+    width: 325px;
+    height: 165px;
+	border-radius: 20px;
+	border: 3px solid #000000;
+	background:rgba(242.25,222.35,85.8,1);
+    box-shadow:12px -12px 0px 0px rgb(180 180 180);
+    
+}
+#rectangle_38 {
+    margin-right: -69%;
+    margin-top: -58%;
+    width: 325px;
+    height: 165px;
+	float: right;
+	border-radius: 20px;
+	border: 3px solid #000000;
+	background:rgba(242.25,222.35,85.8,1);
+    box-shadow:12px -12px 0px 0px rgb(180 180 180);
+    
+}
+#rectangle_39 {
+	margin-top: 11%;
+    width: 325px;
+    height: 165px;
+	border-radius: 20px;
+	border: 3px solid #000000;
+	background:rgba(52,186,150,1);
+    box-shadow:12px -12px 0px 0px rgb(180 180 180);
+    
+}
+.imgi5 {
+	margin-top: -24px;
+    margin-left: 468px;
+    display: flex;
+    justify-content: right;
+	width: 208px;
+    height: 210px;
+	
+}

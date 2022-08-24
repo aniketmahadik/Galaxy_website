@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+    
+    }
+    body {
+        background:rgba(244,244,240,1);
+    }
+    .navbar{
+        width:100%;
+        flex: 100%;
+        display: flex;
+        align-items:center;
+        background-color: #34BA96;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .navbutton{
+        align-items:left;
+        display: flex;
+        margin-left: auto;
+
+    }
+    button{
+        background-color: transparent;
+        border: #34BA96;
+    }
+    .dropdown{
+        position: relative;
+        display: inline-block;
+       margin-right: 25px;
+    }
+    .dropdowncontent{
+        display: none;
+        position: absolute;
+        min-width: 157px;
+        z-index: 10;
+       
+    }
+    .dropdowncontent a{
+        background-color: whitesmoke;
+        border: 10px;
+        display: block;
+        padding: 5px;
+    }
+    .dropdown:hover .dropdowncontent{
+        display: block;
+        background-color: aquamarine;
+    }
+    .dropdowncontent a:hover{
+        background-color: #ddd;
+    }
+    .dropdown:hover .drop{
+        background-color: #3f8d78;
+    }
+    .dropdown a{
+        align-items: center;
+        padding: none;
+        text-decoration: none;
+        color: black;
+
+    }
+    .dropdown:hover{
+        background:rgba(244,244,240,1);
+     }
+     .footer{
+         background-image: linear-gradient(to left top ,limegreen,#34BA96);
+         display: flex;
+         /* grid-template-columns:repeat(3,1fr); */
+         align-items: left;
+     }
+     .footer1 {
+         margin-left: 50px;
+         margin-right: 0px;
+     }
+     .footerhead{
+         margin-bottom: 15px;
+         text-decoration: none;
+         color: whitesmoke;
+     }
+     .list{
+        text-decoration: none;
+        color: rgb(36, 35, 35);
+        margin-top: 50px;  
+    }
+    .img{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .motostart{
+        padding: 10px;
+        display: flex;
+        justify-content: left;
+        margin-right: auto;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        padding: 20px;
+        /* border: solid 2px lightslategrey; */
+        background-color: #cad8f0;
+        border-radius: 25px;
+    }
+    .content p{
+        
+        padding: 10px 60px;
+    }
+    .connect,h5{
+        display: flex;
+        justify-content: center;
+    }
+    #moto{
+        margin-left: auto;
+        padding: 10px;
+    }
+   
